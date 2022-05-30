@@ -7,7 +7,13 @@
         <p class="max-w-2xl text-xl text-gray-500">{{ desc_first }}</p>
         <p class="max-w-2xl text-xl text-gray-500">{{ desc_second }}</p>
       </div>
+      <hr class="mt-10" />
       <div class="mt-10">
+        <h2
+          class="mt-2 text-3xl w-fit leading-8 font-extrabold tracking-tight text-gray-900 mb-10 border-dotted border-slate-800 border-b-2"
+        >
+          Aktuelle Beitraege
+        </h2>
         <div class="space-y-10 md:space-y-0 grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
           <slot name="posts" />
         </div>

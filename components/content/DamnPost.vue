@@ -6,7 +6,7 @@
     <div
       class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative"
       :class="{
-        'top-56 sm:top-72 md:top-96 xl:top-0': postContent.image,
+        'top-56 sm:top-72 md:top-96 lg:top-0 xl:top-0': postContent.image,
       }"
     >
       <h2 class="text-base text-yellow-300 font-semibold tracking-wide uppercase relative">{{ postContent.description }}</h2>

@@ -1,8 +1,9 @@
 <template>
   <ContentList path="" v-slot="{ list }">
     <NuxtLink v-for="post in getBlogPosts(list)" :key="post.title" class="relative" :to="post['_path']">
-      <div class="bg-slate-800 w-12 h-12 z-10 absolute top-1 left-1" />
-      <div class="absolute flex items-center justify-center z-20 h-12 w-12 bg-yellow-300 border-2 border-slate-800 text-slate-800">
+      <div
+        class="absolute drop-shadow-block flex items-center justify-center z-20 h-12 w-12 bg-yellow-300 border-2 border-slate-800 text-slate-800"
+      >
         <div>
           {{ post.day }}
         </div>

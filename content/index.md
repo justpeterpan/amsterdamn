@@ -1,10 +1,11 @@
 ::damn-post-list
 ---
-headline: Wir fahr'n nach Amsterdam!
-subHeadline: xyz goes vue-conf
-desc_first: "Zwei Jahre virtuelle Konferenzen. Zwei Jahre vor'm Bildschirm hocken und im Vorfeld aufgenommene Talks anschauen. Zwei Jahre keine Goodies abstauben."
-desc_second: "Das hat endlich ein Ende. Endlich wieder in ueberfuellten Saelen sitzen, dem Sprecher, beim Versuch technische Probleme zu loesen, lauschen und kaum erwarten koennen, das Gehoerte selbst nie auszuprobieren."
+headline: Irgendein Titel!
+subHeadline: title goes brrrr 
+desc_first: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet"
+desc_second: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et"
 ---
+
 #posts
   :::damn-card
 ::
