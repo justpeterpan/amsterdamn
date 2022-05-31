@@ -1,4 +1,6 @@
 module.exports = {
+  content: ['./components/**/*.vue'],
+  mode: 'jit',
   theme: {
     extend: {
       dropShadow: {

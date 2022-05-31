@@ -1,5 +1,5 @@
 <template>
-  <ContentList path="" v-slot="{ list }">
+  <ContentList v-slot="{ list }" path="">
     <NuxtLink v-for="post in getBlogPosts(list)" :key="post.title" class="relative" :to="post['_path']">
       <div
         class="absolute drop-shadow-block flex items-center justify-center z-20 h-12 w-12 bg-yellow-300 border-2 border-slate-800 text-slate-800"
@@ -20,6 +20,6 @@
 // https://github.com/nuxt/content/pull/1143
 const blogPostPath = /\/posts\/\w+/;
 const getBlogPosts = (list) => {
-  return list.filter((post) => post['_path'].match(blogPostPath));
+  return list.filter((post) => post._path.match(blogPostPath));
 };
 </script>

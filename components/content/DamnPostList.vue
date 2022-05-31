@@ -4,10 +4,11 @@
       <h2 class="text-base text-yellow-300 font-semibold tracking-wide uppercase relative">{{ subHeadline }}</h2>
       <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ headline }}</p>
       <div class="mt-4 space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-        <p class="max-w-2xl text-xl text-gray-500">{{ desc_first }}</p>
-        <p class="max-w-2xl text-xl text-gray-500">{{ desc_second }}</p>
+        <p class="max-w-2xl text-xl text-gray-500">{{ descFirst }}</p>
+        <p class="max-w-2xl text-xl text-gray-500">{{ descSecond }}</p>
       </div>
       <hr class="mt-10" />
+
       <div class="mt-10">
         <h2
           class="mt-2 text-3xl w-fit leading-8 font-extrabold tracking-tight text-gray-900 mb-10 border-dotted border-slate-800 border-b-2"
@@ -32,11 +33,11 @@ defineProps({
     type: String,
     required: true,
   },
-  desc_first: {
+  descFirst: {
     type: String,
     required: true,
   },
-  desc_second: {
+  descSecond: {
     type: String,
     required: true,
   },
