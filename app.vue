@@ -1,5 +1,6 @@
 <template>
   <div>
+    <DamnNavBar />
     <NuxtPage />
   </div>
 </template>

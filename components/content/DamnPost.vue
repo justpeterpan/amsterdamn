@@ -1,6 +1,6 @@
 <template>
   <div v-if="!pending && postContent" class="py-12 bg-white">
-    <div v-if="postContent.image" class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 absolute top-0 w-full">
+    <div v-if="postContent.image" class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 absolute lg:top-0 top-[73px] w-full">
       <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" :src="postContent.image" alt="" />
     </div>
     <div
@@ -11,9 +11,9 @@
     >
       <h2 class="text-base text-yellow-300 font-semibold tracking-wide uppercase relative">{{ postContent.description }}</h2>
       <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ postContent.title }}</p>
-      <div class="max-w-xl text-xl text-gray-500 mt-4">
+      <section class="text-xl text-gray-500 mt-4" :class="{'lg:max-w-xl': postContent.image}">
         <slot name="content" />
-      </div>
+      </section>
     </div>
   </div>
 </template>

@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@headlessui/vue': ^1.6.4
   '@nuxt/content': ^2.0.0
   '@nuxtjs/eslint-config': ^10.0.0
   '@nuxtjs/tailwindcss': ^5.1.2
@@ -11,6 +12,9 @@ specifiers:
   husky: ^8.0.0
   nuxt: 3.0.0-rc.3
   prettier: ^2.6.2
+
+dependencies:
+  '@headlessui/vue': 1.6.4
 
 devDependencies:
   '@nuxt/content': 2.0.0
@@ -359,6 +363,13 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@headlessui/vue/1.6.4:
+    resolution: {integrity: sha512-axZMcfRLNuwHESPMgDb0Vj7xxlNPmsPl77pvoRZGzJh7lRdRic9kC/qbVM8G36OpIJRZzqrlADLQ2JIObhQjBg==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      vue: ^3.2.0
+    dev: false
 
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}

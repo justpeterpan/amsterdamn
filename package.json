@@ -20,5 +20,8 @@
     "husky": "^8.0.0",
     "nuxt": "3.0.0-rc.3",
     "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.6.4"
   }
 }
