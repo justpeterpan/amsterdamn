@@ -9,6 +9,7 @@ Simple [blog](https://amsterdamn.netlify.app/) to capture the experience of [Vue
 
 - [Nuxt3](https://v3.nuxtjs.org/)
 - [Nuxt Content](https://content.nuxtjs.org/)
+- [Nuxt Color](https://color-mode.nuxtjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
@@ -54,4 +55,3 @@ To get a local instance up and running follow these simple (or not, looking at y
 - [ ] Add favicon
 - [ ] Add title
 - [ ] Netlify Function to block requests from outside of kt vpn or add password protection
-- ?
