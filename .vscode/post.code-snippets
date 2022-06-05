@@ -3,7 +3,7 @@
     "scope": "markdown",
     "prefix": "_blp",
     "body": [
-      "---\ntitle: ${1:title}\ndescription: ${2:description}\nday: ${3:day}\nimage: ${4:image url}\n---\n\n::damn-post\n#content\n${5:content}\n::"
+      "---\ntitle: ${1:title}\ndescription: ${2:description}\nday: ${3:day}\nimage: ${4:image url}\n---\n\n::damn-post\n${5:content}\n::"
     ],
     "description": "AmsterDamn post template"
   }

@@ -11,9 +11,9 @@
     >
       <h2 class="text-base text-yellow-300 font-semibold tracking-wide uppercase relative">{{ postContent.description }}</h2>
       <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ postContent.title }}</p>
-      <div class="max-w-xl text-xl text-gray-500 mt-4">
-        <slot name="content" />
-      </div>
+      <section class="text-xl text-gray-500 mt-4" :class="{ 'lg:max-w-lg': postContent.image }">
+        <slot />
+      </section>
     </div>
   </div>
 </template>
