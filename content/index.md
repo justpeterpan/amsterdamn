@@ -7,7 +7,8 @@ descSecond: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam n
 ---
 ::
 
-:damn-divider
+::damn-divider
+::
 
 ::damn-post-list
 ---
