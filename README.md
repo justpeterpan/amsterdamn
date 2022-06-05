@@ -10,7 +10,9 @@ Simple [blog](https://amsterdamn.netlify.app/) to capture the experience of [Vue
 - [Nuxt3](https://v3.nuxtjs.org/)
 - [Nuxt Content](https://content.nuxtjs.org/)
 - [Nuxt Color](https://color-mode.nuxtjs.org/)
+- [VueUse](https://vueuse.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [heroicons](https://heroicons.com/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Pnpm](https://pnpm.io/)
@@ -48,7 +50,7 @@ To get a local instance up and running follow these simple (or not, looking at y
 ## Roadmap
 
 - [x] Update Readme
-- [ ] Add `back to home`-Button on Post-Pages
+- [x] Add `back to home`-Button on Post-Pages
 - [ ] Add Image-Component
 - [ ] Add Navbar
 - [ ] Domain setup

@@ -21,5 +21,9 @@
     "husky": "^8.0.1",
     "nuxt": "3.0.0-rc.3",
     "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^1.0.6",
+    "@vueuse/nuxt": "^8.6.0"
   }
 }
