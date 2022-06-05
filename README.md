@@ -39,6 +39,7 @@ To get a local instance up and running follow these simple (or not, looking at y
    - New Post: `git commit -m '🗒️ add new-post-title'`
    - Bugfix: `git commit -m '🐛 fix bugfix-description'`
    - Refactoring: `git commit -m '🎨 refactor component-or-sth-else-description'`
+   - Update: `git commit -m '⬆️ update dependency-name-version'`
    - Documentation: `git commit -m '📝 update documentation-description`'
 1. Push to branch (`git push origin feature/name-of-feature-or-post`)
 1. Create new pull request
