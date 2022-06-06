@@ -1,15 +1,15 @@
-# [VUEJS AMSTERDAM DIARY](https://vuejs.amsterdam/)
+# ɣrɑχt
 
 ## About the Project
 
-![Website Screenshot](docs/screenshot.png)
-Simple [blog](https://amsterdamn.netlify.app/) to capture the experience of [VueJS Amsterdam](https://vuejs.amsterdam/).
+![Website Screenshot](docs/screenshot.png)  
+Minimal [blog template](https://amsterdamn.netlify.app/) to capture your thoughts and ideas.
 
 ### Built With
 
 - [Nuxt3](https://v3.nuxtjs.org/)
 - [Nuxt Content](https://content.nuxtjs.org/)
-- [Nuxt Color](https://color-mode.nuxtjs.org/)
+- [Nuxt Color Mode](https://color-mode.nuxtjs.org/)
 - [VueUse](https://vueuse.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [heroicons](https://heroicons.com/)
@@ -50,10 +50,12 @@ To get a local instance up and running follow these simple (or not, looking at y
 ## Roadmap
 
 - [x] Update Readme
+- [ ] Add Usage Information to Readme
 - [x] Add `back to home`-Button on Post-Pages
-- [ ] Add Image-Component
-- [ ] Add Navbar
+- [x] Add Image-Component
+- [x] Add Navbar
+- [ ] Refactor content subfolder structure
+- [ ] Implement themes via config file
 - [ ] Domain setup
 - [ ] Add favicon
 - [ ] Add title
-- [ ] Netlify Function to block requests from outside of kt vpn or add password protection
