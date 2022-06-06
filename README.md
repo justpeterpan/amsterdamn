@@ -59,3 +59,4 @@ To get a local instance up and running follow these simple (or not, looking at y
 - [ ] Domain setup
 - [ ] Add favicon
 - [ ] Add title
+- [ ] Add TypeScript ESLint config
