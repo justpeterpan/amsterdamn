@@ -1,7 +1,11 @@
 <template>
   <div v-if="!pending && postContent" class="py-12">
-    <div v-if="postContent.image" class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 absolute top-0 w-full">
-      <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" :src="postContent.image" alt="" />
+    <div v-if="postContent.image" class="z-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 absolute top-0 w-full">
+      <img
+        class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full lg:fixed lg:dark:saturate-0 hover:lg:dark:saturate-100 lg:dark:transition-all lg:dark:duration-700 lg:dark:ease-in-out"
+        :src="postContent.image"
+        alt=""
+      />
     </div>
     <div
       class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative"
@@ -17,7 +21,7 @@
         <section class="text-xl text-gray-500 dark:text-light-gray mt-4" :class="{ 'lg:max-w-lg': postContent.image }">
           <slot />
         </section>
-        <NuxtLink to="/"><ArrowNarrowLeftIcon class="w-8 h-8 mt-4 dark:text-yellow-300" /></NuxtLink>
+        <NuxtLink class="max-w-fit" to="/"><ArrowNarrowLeftIcon class="w-10 h-10 my-4 lg:mt-4 lg:mb-0 dark:text-yellow-300" /></NuxtLink>
       </div>
     </div>
   </div>

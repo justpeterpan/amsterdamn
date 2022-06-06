@@ -8,7 +8,7 @@ module.exports = {
         light: '#d6d3cd',
         'light-gray': '#9e9589',
         'lighter-gray': '#363b3d',
-        gray: '#181a1b',
+        dark: '#181a1b',
       },
       dropShadow: {
         dark: '4px 4px 0px rgba(0,0,0,1)',

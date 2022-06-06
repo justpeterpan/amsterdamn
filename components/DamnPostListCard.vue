@@ -1,7 +1,7 @@
 <template>
   <NuxtLink v-if="post.description" class="relative" :to="post['_path']">
     <section
-      class="absolute drop-shadow-dark dark:drop-shadow-light flex items-center justify-center z-20 h-12 w-12 bg-yellow-300 dark:bg-gray border-2 border-slate-800 dark:border-light text-slate-800 dark:text-light"
+      class="absolute drop-shadow-dark dark:drop-shadow-light flex items-center justify-center z-20 h-12 w-12 bg-yellow-300 dark:bg-dark border-2 border-slate-800 dark:border-light text-slate-800 dark:text-light"
     >
       <div>
         {{ post.day }}
