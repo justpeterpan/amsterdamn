@@ -1,3 +1,5 @@
+import plugin from 'tailwindcss/plugin';
+
 module.exports = {
   content: ['./components/**/*.vue'],
   darkMode: 'class',
@@ -16,4 +18,21 @@ module.exports = {
       },
     },
   },
+  plugins: [
+    // https://twitter.com/samselikoff/status/1383087435609993221
+    // firefox:bg-white in DamnNavBar.vue
+    plugin(function ({ addVariant, e, postcss }) {
+      addVariant('firefox', ({ container, separator }) => {
+        const isFirefoxRule = postcss.atRule({
+          name: '-moz-document',
+          params: 'url-prefix()',
+        });
+        isFirefoxRule.append(container.nodes);
+        container.append(isFirefoxRule);
+        isFirefoxRule.walkRules((rule) => {
+          rule.selector = `.${e(`firefox${separator}${rule.selector.slice(1)}`)}`;
+        });
+      });
+    }),
+  ],
 };

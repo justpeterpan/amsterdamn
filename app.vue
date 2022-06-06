@@ -1,6 +1,7 @@
 <template>
   <div>
-    <NuxtPage />
+    <DamnNavBar class="sticky top-0 transition-colors duration-700 ease-in-out" />
+    <NuxtPage class="pt-8 relative" />
   </div>
 </template>
 
