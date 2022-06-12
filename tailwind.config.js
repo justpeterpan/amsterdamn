@@ -1,7 +1,7 @@
 import plugin from 'tailwindcss/plugin';
 
 module.exports = {
-  content: ['./components/**/*.vue'],
+  content: ['./components/**/*.{md,vue}'],
   darkMode: 'class',
   mode: 'jit',
   theme: {
@@ -19,6 +19,7 @@ module.exports = {
     },
   },
   plugins: [
+    require('@tailwindcss/typography'),
     // https://twitter.com/samselikoff/status/1383087435609993221
     // firefox:bg-white in DamnNavBar.vue
     plugin(function ({ addVariant, e, postcss }) {

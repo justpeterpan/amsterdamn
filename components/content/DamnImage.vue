@@ -1,7 +1,7 @@
 <template>
-  <div class="my-4">
+  <div class="my-4 not-prose">
     <img :src="src" :alt="alt" class="rounded" />
-    <div class="text-xs italic mt-1 dark:text-lighter-gray">{{ description }}</div>
+    <span class="text-xs italic mt-1 dark:text-lighter-gray">{{ description }}</span>
   </div>
 </template>
 
