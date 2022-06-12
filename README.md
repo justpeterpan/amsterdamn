@@ -12,6 +12,7 @@ Minimal [blog template](https://amsterdamn.netlify.app/) to capture your thought
 - [Nuxt Color Mode](https://color-mode.nuxtjs.org/)
 - [VueUse](https://vueuse.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Tailwind Typography](https://tailwindcss.com/docs/typography-plugin)
 - [heroicons](https://heroicons.com/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
@@ -49,6 +50,7 @@ To get a local instance up and running follow these simple (or not, looking at y
 
 ## Roadmap
 
+- [ ] Refactor DamnHero-Component
 - [x] Update Readme
 - [ ] Add Usage Information to Readme
 - [x] Add `back to home`-Button on Post-Pages

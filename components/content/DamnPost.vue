@@ -18,7 +18,10 @@
         <h1 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-light sm:text-4xl">
           {{ postContent.title }}
         </h1>
-        <section class="text-xl text-gray-500 dark:text-light-gray mt-4" :class="{ 'lg:max-w-[30rem]': postContent.image }">
+        <section
+          class="text-xl text-gray-500 dark:text-light-gray mt-4 prose dark:prose-invert max-w-none"
+          :class="{ 'lg:max-w-[30rem]': postContent.image }"
+        >
           <slot />
         </section>
         <NuxtLink class="max-w-fit" to="/"><ArrowNarrowLeftIcon class="w-10 h-10 my-4 lg:mt-4 lg:mb-0 dark:text-yellow-300" /></NuxtLink>
