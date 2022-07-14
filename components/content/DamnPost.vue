@@ -1,7 +1,7 @@
 <template>
   <div v-if="!pending && postContent" class="pb-12">
     <div v-if="postContent.image" class="z-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 absolute top-0 w-full">
-      <img
+      <nuxt-img
         class="h-56 w-full object-cover z-50 top-0 sm:h-72 md:h-96 lg:w-full lg:h-full lg:fixed lg:dark:saturate-0 hover:lg:dark:saturate-100 lg:dark:transition-all lg:dark:duration-700 lg:dark:ease-in-out"
         :src="postContent.image"
         alt=""
